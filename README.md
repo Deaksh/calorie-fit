@@ -45,6 +45,9 @@ npm run dev:mobile
 
 Web runs at `http://localhost:3001`.
 
+## Agent Behavior
+The in-app agent provides actionable steps and a short meal plan. When the agent returns a meal plan, it automatically fills the “Meal Estimate” input so you can estimate nutrition immediately. This keeps the agent helpful without silently changing core profile fields.
+
 ## Notes
 - For mobile, use your machine’s LAN IP in `apps/mobile/.env`.
 - Expo Go on iOS requires SDK 54 (this project is SDK 54).
