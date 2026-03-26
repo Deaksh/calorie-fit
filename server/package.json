@@ -1,0 +1,15 @@
+{
+  "name": "calorie-fit-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.2",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1"
+  }
+}

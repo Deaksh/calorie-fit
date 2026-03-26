@@ -1,0 +1,20 @@
+{
+  "name": "calorie-fit",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "server"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev:mobile": "npm --workspace apps/mobile run start",
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:server": "npm --workspace server run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

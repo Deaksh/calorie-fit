@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./ui.css";
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-sand-50 text-forest-800;
+}
+
+input, textarea {
+  @apply outline-none;
+}

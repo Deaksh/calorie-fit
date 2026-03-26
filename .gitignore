@@ -1,0 +1,19 @@
+node_modules/
+apps/web/.next/
+apps/mobile/.expo/
+.idea/
+.DS_Store
+*.log
+.env
+apps/mobile/.env
+apps/web/.env.local
+
+# Expo
+.expo/
+
+# Next
+.next/
+
+# Misc
+npm-debug.log*
+

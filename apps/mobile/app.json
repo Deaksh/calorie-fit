@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "CalorieFit",
+    "slug": "calorie-fit",
+    "version": "0.1.0",
+    "entryPoint": "./index.js",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F3E9"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {"supportsTablet": true},
+    "android": {
+      "adaptiveIcon": {"foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#F7F3E9"},
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow CalorieFit to access your location to personalize meal plans."
+        }
+      ]
+    ],
+    "web": {"favicon": "./assets/favicon.png"},
+    "extra": {
+      "apiBaseUrl": "${EXPO_PUBLIC_API_BASE_URL}"
+    }
+  }
+}
